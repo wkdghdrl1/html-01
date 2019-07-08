@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<style>
+#nav1{
+    
+    margin :0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#nav1 a{
+    display: block;
+    width: 200px;
+    background-color: white;
+    text-decoration: none;
+    padding: 5;
+}
+/*
+    어떤 효과들을 부여하기 위한 가상 tag속성
+    hover 마우스를 올리면 나타나는 속성
+*/
+#nav1 a:hover{
+    background-color: white;
+    color: hotpink;
+
+}
+/*
+    #nav1이 감싸고 있는 a tag의 home 클래스에만 적용
+*/
+#nav1 a.home{
+background-color: #4caf50;
+color: white;
+
+}
+#nav1 a.na1{
+    background-color: #4caf50;
+}
+</style>
+
+</head>
+<body>
+    <nav>
+        <ui id="nav1">
+                <li><a href="#" class="home">포털</a></li>
+                <li><a href="https://naver.com" target="_new" class="na1">네이버</a></li>
+                <li><a href="https://daum.net" target="_new">다음</a></li>
+                <li><a href="https://google.com" target="_new">구글</a></li>
+        </ui>
+    </nav>
+
+</body>
+</html>

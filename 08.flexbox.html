@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+    header{
+        background-color: green;
+    }
+    
+    header h3{
+        padding: 1.5rem;
+        text-align: center;
+    }
+    /* 지금부터 container 클래스는 flex box의 부모이다. */
+    .container{
+        display: flex;
+
+    }
+    /* flex 속성값을 다르게 설정하면 그 배율에 맞게 자동 크기를 조절한다.ㅈ*/
+    .col{
+        flex: 1;
+        background-color: yellow;
+        margin: 5px;
+    }
+    /*
+        flex container에 box들을 배치하느데
+        flex 속성 값에 따라 배율을 자동조절하여
+        box들을 채워 넣는다.
+    */
+    #col2{
+        flex : 2;
+    }
+    </style>
+</head>
+<body>
+    <header>
+      <h3>FlexBox</h3>  
+    </header>
+    <section class="container">
+        <div class="col">1</div>
+        <div class="col" id="col2">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+        <div class="col">5</div>
+        <div class="col">6</div>
+        <div class="col">7</div>
+        <div class="col">8</div>
+        <div class="col">9</div>
+        <div class="col">10</div>
+
+    </section>
+</body>
+</html>

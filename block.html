@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        span.sa, span.sb, span.sc{
+            border: 1px solid blue;
+            background-color: beige;
+            color: brown;
+        }
+        /* span tag 는 기본 dispaly 속성이 inlinse*/
+        span.sa{
+            display: inline;
+            width: 100px;
+            height: 100px;
+        }
+        /* inline-block
+            width와 height를 지정하여 박스 크기를 만들수 있지만,
+            inline과 같은 글자로서의 속성을 일부 유지한다.
+        */
+        span.sb{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+        }
+        /* 
+             block
+             일반적인 block tag성질을 그대로 모두 물려받는다. 
+        */
+        span.sc{
+            display: block;
+            width: 100px;
+            height: 100px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="div1">
+            누구든지 체포 또는
+            <span class="sa">모든 국민은 인간다운 생활</span>을 할 권리를 가진다. 선거운동은 각급 선거관리위원회의 관리하에 법률이 정하는 범위안에서 하되, 균등한 기회가 보장되어야 한다. 
+           <span class="sb"> 국회의원</span>은 국회에서 직무상 행한 발언과 표결에 관하여 국회외에서 책임을 지지 아니한다. 
+            농업생산성의 제고와 농지의 합리적인 이용을 위하거나 불가피한 사정으로 발생하는 농지의 임대차와 위탁경영은 법률이 정하는 바에 의하여 인정된다. 
+            사면·감형 및 복권에 관한 사항은 법률로 정한다. 이 헌법시행 당시의 법령과 조약은 이 헌법에 위배되지 아니하는 한 그 효력을 지속한다. 
+            국회나 그 위원회의 요구가 있을 때에는 국무총리·국무위원 또는 정부위원은 출석·답변하여야 하며, 국무총리 또는 국무위원이 출석요구를 받은 때에는 국무위원 또는 정부위원으로 하여금 출석·답변하게 할 수 있다.
+            국회의 회의는 공개한
+            모든 국민은 보건에 관하여 국가의 보호를 받는다. 
+            대한민국의 주권은 국민에게 있고, 모든 권력은 국민으로부터 나온다. 
+            <span class="sc">대통령</span>이 궐위된 때 또는 대통령 당선자가 사망하거나 판결 기타의 사유로 그 자격을 상실한 때에는 60일 이내에 후임자를 선거한다. 
+            국회의원은 그 지위를 남용하여 국가·공공단체 또는 기업체와의 계약이나 그 처분에 의하여 재산상의 권리·이익 또는 직위를 취득하거나 타인을 위하여 그 취득을 알선할 수 없다.
+            국회는 헌법 또는 법률에 특별한 규정이 없는 한 재적의원 과반수의 출석과 출석의원 과반수의 찬성으로 의결한다. 
+            가부동수인 때에는 부결된 것으로 본다. 정부는 예산에 변경을 가할 필요가 있을 때에는 추가경정예산안을 편성하여 국회에 제출할 수 있다.
+
+    </div>
+</body>
+</html>
